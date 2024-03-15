@@ -1,0 +1,174 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\_Disk\\_Projects\\alfa\\Generator.PrimeNumbers\\Generator.PrimeNumbers.csproj": {}
+  },
+  "projects": {
+    "C:\\_Disk\\_Projects\\alfa\\Generator.PrimeNumbers\\Generator.PrimeNumbers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_Disk\\_Projects\\alfa\\Generator.PrimeNumbers\\Generator.PrimeNumbers.csproj",
+        "projectName": "Generator.PrimeNumbers",
+        "projectPath": "C:\\_Disk\\_Projects\\alfa\\Generator.PrimeNumbers\\Generator.PrimeNumbers.csproj",
+        "packagesPath": "C:\\Users\\eugen\\.nuget\\packages\\",
+        "outputPath": "C:\\_Disk\\_Projects\\alfa\\Generator.PrimeNumbers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eugen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Repos\\nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\_Disk\\_Projects\\alfa\\Kafka.Client\\Kafka.Client.csproj": {
+                "projectPath": "C:\\_Disk\\_Projects\\alfa\\Kafka.Client\\Kafka.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NET.Build.Containers": {
+              "target": "Package",
+              "version": "[8.0.200, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\_Disk\\_Projects\\alfa\\Kafka.Client\\Kafka.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_Disk\\_Projects\\alfa\\Kafka.Client\\Kafka.Client.csproj",
+        "projectName": "Kafka.Client",
+        "projectPath": "C:\\_Disk\\_Projects\\alfa\\Kafka.Client\\Kafka.Client.csproj",
+        "packagesPath": "C:\\Users\\eugen\\.nuget\\packages\\",
+        "outputPath": "C:\\_Disk\\_Projects\\alfa\\Kafka.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eugen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Repos\\nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.NET.Build.Containers": {
+              "target": "Package",
+              "version": "[8.0.200, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "L8HY6MY3hP0b7fIR07im3fEDlXrG4NdvMqA7oZQgs4FTCx4r/8vEow/LQvSThqHs5idBzKhnN2Hm8t2/5Xjmew==",
+  "success": true,
+  "projectFilePath": "C:\\_Disk\\_Projects\\alfa\\Kafka.Client\\Kafka.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eugen\\.nuget\\packages\\confluent.kafka\\2.3.0\\confluent.kafka.2.3.0.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\librdkafka.redist\\2.3.0\\librdkafka.redist.2.3.0.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\microsoft.net.build.containers\\8.0.200\\microsoft.net.build.containers.8.0.200.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
