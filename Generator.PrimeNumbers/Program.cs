@@ -56,12 +56,10 @@ public class Program
     {
         var previousNubmer = 2;
         WatermarkOffsets watermarkOffsets = messageBroker.Consumer.QueryWatermarkOffsets(new TopicPartition(topic, new Partition(0)), TimeSpan.FromSeconds(3));
-        Console.WriteLine($"watermarkOffsets high value {watermarkOffsets.High.Value} ");
         if (watermarkOffsets.High.Value > 0)
         {
             var tpo = new TopicPartitionOffset(topic, new Partition(0), new Offset(watermarkOffsets.High.Value - 1));
             messageBroker.Consumer.Assign(tpo);
-            Console.WriteLine($"Try to consume");
             await messageBroker.TryConsumingLastMessageAsync(new List<string> { topic }, Handler);
             previousNubmer = _lastNumber;
         }
@@ -82,7 +80,6 @@ public class Program
                         GeneratedTime = generatedTime
                     });
 
-                    Console.WriteLine($"Try to publish {message} ");
                     await messageBroker.ProduceAsync(topic, message);
                     Console.WriteLine($"{message} published");
 
